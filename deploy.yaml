@@ -16,7 +16,7 @@ spec:
         app: bakehouse
     spec:
       containers:
-      - image: mustafaelhendy/minia
+      - image: mustafaelhendy/minia:v1
         name: bakehouse
         imagePullPolicy: Always
         ports:
