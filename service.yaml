@@ -5,6 +5,7 @@ metadata:
   labels:
     app: myservice
   name: myservice
+  namespace: app
 spec:
   ports:
   - name: bakehouseport

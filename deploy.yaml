@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: bakehouse
+  namespace: app
   name: bakehouse
 spec:
   replicas: 1
